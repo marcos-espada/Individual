@@ -1,0 +1,3 @@
+Para ver la versión del NTFS del disco c:\ utilizaremos el comando fsutil fsinfo ntfsinfo c:\
+
+Para saber la versión del SID utilizaremos el comando Get-WmiObject win32_useraccount | Select domain,name,sid
